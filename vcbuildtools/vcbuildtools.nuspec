@@ -4,7 +4,7 @@
   <metadata>
     <id>vcbuildtools</id>
     <title>Microsoft Visual C++ Build Tools 2015 Technical Preview</title>
-    <version>2015.0</version>
+    <version>2015.1</version>
     <authors>Microsoft</authors>
     <owners>Dave Penfold</owners>
     <summary>This is a Technical Preview for Visual C++ Build Tools 2015, which provides the essential tools for building C++ applications and libraries targeting Windows desktop.</summary>
