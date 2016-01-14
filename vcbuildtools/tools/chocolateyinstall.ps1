@@ -2,7 +2,7 @@
 
 $packageName= 'vcbuildtools'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://download.microsoft.com/download/3/8/E/38EE4758-7C31-4D96-8FF9-83CC313F0F78/VisualCppBuildTools_Full.exe'
+$url        = 'http://go.microsoft.com/fwlink/?LinkId=691126'
 
 $packageArgs = @{
   packageName   = $packageName
