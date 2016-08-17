@@ -14,10 +14,8 @@ $packageArgs = @{
   validExitCodes= @(0)
 
   softwareName  = 'vcbuildtools*'
-  checksum      = ''
-  checksumType  = 'md5'
-  checksum64    = ''
-  checksumType64= 'md5'
+  checksum      = '3e0de8af516c15547602977db939d8c2e44fcc0b'
+  checksumType  = 'sha1'
 }
 
 Install-ChocolateyPackage @packageArgs
