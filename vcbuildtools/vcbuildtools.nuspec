@@ -16,7 +16,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/davepenfold/Chocolatey-Packages/master/vcbuildtools/icon.png</iconUrl>
     <dependencies>
-      <dependency id="DotNet4.5.1" />
+      <dependency id="DotNet4.5.1" version="4.5.1.20140606" />
     </dependencies>
   </metadata>
   <files>
