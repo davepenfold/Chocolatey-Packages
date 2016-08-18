@@ -1,0 +1,8 @@
+{
+  "name": "vcbuildtools",
+  "private": true,
+  "version": "1.0.0",
+  "devDependencies": {
+    "checksum": "^0.1.1"
+  }
+}

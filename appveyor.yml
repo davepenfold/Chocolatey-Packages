@@ -1,0 +1,20 @@
+version: '{build}'
+
+environment:
+  nodejs_version: "4"
+
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - npm -g install npm@latest
+  - set PATH=%APPDATA%\npm;%PATH%
+  - node --version
+  - npm --version
+  - npm install
+
+build_script:
+  - node update.js
+  - cd vcbuildtools
+  - choco pack
+  
+artifacts:
+  path: '**\*.nupkg'
