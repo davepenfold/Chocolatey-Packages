@@ -2,7 +2,7 @@
 
 $packageName= 'vcbuildtools'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://go.microsoft.com/fwlink/?LinkId=691126'
+$url        = 'https://go.microsoft.com/fwlink/?LinkId=691126'
 
 $packageArgs = @{
   packageName   = $packageName
