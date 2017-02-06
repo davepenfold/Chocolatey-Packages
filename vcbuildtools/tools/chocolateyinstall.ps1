@@ -11,7 +11,7 @@ $packageArgs = @{
   url           = $url
 
   silentArgs   = '/S'
-  validExitCodes= @(0)
+  validExitCodes= @(0,3010)
 
   softwareName  = 'vcbuildtools*'
   checksum      = '3e0de8af516c15547602977db939d8c2e44fcc0b'

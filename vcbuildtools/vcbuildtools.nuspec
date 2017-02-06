@@ -4,11 +4,42 @@
   <metadata>
     <id>vcbuildtools</id>
     <title>Microsoft Visual C++ Build Tools 2015</title>
-    <version>2015.3</version>
+    <version>2015.4</version>
     <authors>Microsoft</authors>
     <owners>Dave Penfold</owners>
     <summary>Visual C++ Build Tools 2015 provides the essential tools for building C++ applications and libraries targeting Windows desktop.</summary>
-    <description>Visual C++ Build Tools 2015 provides the required tools for building C++ applications and libraries targeting Windows desktop. If you want to build your C++ projects targeting Windows desktop without having Visual Studio installed on your computer, Visual C++ Build Tools 2015 provides C++ compilers, libraries, build scripts, and Windows SDKs.</description>
+    <description>
+Visual C++ Build Tools 2015 provides the required tools for building C++ applications and libraries targeting Windows desktop. If you want to build your C++ projects targeting Windows desktop without having Visual Studio installed on your computer, Visual C++ Build Tools 2015 provides C++ compilers libraries, build scripts, and Windows SDKs.
+
+The default installation includes the Visual C++ compiler toolset, libraries and MSBuild for Windows Desktop development.
+
+```
+choco install -y vcbuildtools
+```
+
+### Optional Software
+
+The following optional software is available for installation:
+
+- Win81SDK_CppBuildSKUV1 - Windows 8.1 SDK
+- Win10SDK_VisibleV1 - Windows 10 SDK
+- VisualCppBuildTools\_ATLMFC_SDK - ATL/MFC SDK
+- VisualCppBuildTools\_NETFX_SDK - .NET Framework SDK
+
+
+If you'd like to install all optional software run the following command:
+
+```
+choco install -y vcbuildtools -ia "/Full"
+```
+
+If you'd like to install only parts of the optional software run the following command, adding or removing the above add-ons as required:
+
+```
+choco install -y vcbuildtools -ia "/InstallSelectableItems VisualCppBuildTools_ATLMFC_SDK;VisualCppBuildTools_NETFX_SDK"
+```
+
+    </description>
     <projectUrl>http://landinghub.visualstudio.com/visual-cpp-build-tools</projectUrl>
     <projectSourceUrl>https://github.com/davepenfold/Chocolatey-Packages/tree/master/vcbuildtools</projectSourceUrl>
     <tags>windows c++ build tools node npm admin</tags>
